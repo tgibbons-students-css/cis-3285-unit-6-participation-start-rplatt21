@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AccountsForms.Properties
+namespace AccountsFormsApp.Properties
 {
 
 

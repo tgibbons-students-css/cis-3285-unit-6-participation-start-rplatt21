@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesUnitTest", "Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainUnitTest", "DomainUnitTest\DomainUnitTest.csproj", "{57561F5D-C6FD-45C0-B0C8-4A6ACAEEA87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsFormsApp", "AccountsFormsApp\AccountsFormsApp.csproj", "{00066945-BAFD-464B-94ED-E14C38E21C37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{57561F5D-C6FD-45C0-B0C8-4A6ACAEEA87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57561F5D-C6FD-45C0-B0C8-4A6ACAEEA87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57561F5D-C6FD-45C0-B0C8-4A6ACAEEA87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00066945-BAFD-464B-94ED-E14C38E21C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00066945-BAFD-464B-94ED-E14C38E21C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00066945-BAFD-464B-94ED-E14C38E21C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00066945-BAFD-464B-94ED-E14C38E21C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
