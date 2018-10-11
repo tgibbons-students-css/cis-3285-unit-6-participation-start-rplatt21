@@ -36,6 +36,11 @@ namespace AccountsFormsApp
            AccountBalTextBox.Text = bal.ToString();
         }
 
+        /// <summary>
+        /// Deposit Button gets user input from textbox, sets amount in account name that is selected. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void DepositButton_Click(object sender, EventArgs e)
         {
             Decimal amount = Decimal.Parse(DepositTextBox.Text);
@@ -47,6 +52,11 @@ namespace AccountsFormsApp
             AccountBalTextBox.Text = bal.ToString();
         }
 
+        /// <summary>
+        /// Withdraw button takes user input from textbox and calls Withdrawal method: takes away amount from selected item/account
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void WithdrawalButton_Click(object sender, EventArgs e)
         {
             Decimal amount = Decimal.Parse(WithTextBox.Text);

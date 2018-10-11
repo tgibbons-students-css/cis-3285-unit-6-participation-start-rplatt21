@@ -40,6 +40,7 @@ namespace Domain
 
         public void AddTransaction(decimal amount)
         {
+            //no reward for withdrawing
             if (amount > 0)
             {
                 RewardPoints += CalculateRewardPoints(amount);

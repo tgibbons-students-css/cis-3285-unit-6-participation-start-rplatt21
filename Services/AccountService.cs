@@ -49,7 +49,7 @@ namespace Services
         public void Withdrawal(string accountName, decimal amount)
         // withdrawal the given account into the account named
         {
-            //FIX ME: reward point and how calculated??
+            //takes account name and adds transaction: parameters are multiplied by -1 for that it is subtracted from account
             AccountBase acc = FindAccount(accountName);
             acc.AddTransaction(amount * -1);
         }
